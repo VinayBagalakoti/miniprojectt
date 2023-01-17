@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+*{
+    
+    padding: 0;
+    margin: 0;
+}
+.container{
+    
+    width: 100%;
+    height: 100vh;
+     background:linear-gradient(135deg, orange 60%, cyan);
+     background-position: center;
+     background-size: cover;
+     
+}
+.row{
+    display: flex;
+    height: 88%;
+    align-items: center;
+
+}
+.col{
+    flex-basis: 50%;
+    margin-left:8%;
+}
+h1{
+    color: #fff;
+    font-size: 60px;
+    /* text-decoration: underline ; */
+    text-decoration:underline black ;
+    text-decoration-thickness:1px;
+    text-decoration-skip: ink;
+}
+p{
+    color: #fff;
+    font-size: 15px;
+    line-height: 20px;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 2%;
+    text-align: justify;
+}
+.ttt{
+    margin-top: 10%;
+}
+/* audio{
+    margin-top:;
+} */
+.par p{
+    color: #283618;
+    margin-top: 5%;
+    font-size: 20px;
+   
+    
+}
+
+.card{
+    
+    width: 190px;
+    height: 220px;
+    display: inline-block;
+    border-radius: 10px;
+    padding:15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-position: center;
+    background-size: cover;
+    transition:transform 0.5s;
+}
+
+.card1{
+   background-image: url(https://media.istockphoto.com/id/942815840/vector/cartoon-sketch-of-the-india-gate-new-delhi-india.jpg?s=1024x1024&w=is&k=20&c=a9ZyTPuqoh39Yvmko6L5tQGNYea1AH_CpRkT3JKHjqs=);
+   
+}
+.card2{
+    background-image:url(https://media.istockphoto.com/id/639497150/vector/mumbai-india-gate.jpg?s=612x612&w=is&k=20&c=RrY7MBMi3o2mTO5P6kfUGEuoBjxz0feeW2Kh5CHXKhM=);
+}
+.card3{
+    background-image: url(https://media.istockphoto.com/id/1134157312/vector/outline-hyderabad-india-city-skyline-with-historical-buildings-and-reflections.jpg?s=1024x1024&w=is&k=20&c=c3XxmrvWb3y3b9KkGws6RD1IrFOOfz42_xBEvMMRRjk=);
+}
+.card4{
+    background-image: url(https://media.istockphoto.com/id/1311928731/vector/mysore-india-city-skyline-silhouette.jpg?s=1024x1024&w=is&k=20&c=5m5txTtSeBfRz6EzhRBgFw6c1r67G2Udi4D5qfF6YZk=);
+}
+.card:hover{
+    transform: translateY(-10px);
+}
+.slide-right {
+    width: 100%;
+    overflow: hidden;
+    margin-top: 2%;
+    margin-left: 400px;
+    max-width: 500px
+  }
+  .ttt p{
+
+    animation: 2s slide-right;
+  /* animation-delay: ; */
+}
+@keyframes slide-right{
+    from {
+      margin-left: -500px;
+    }
+  
+    to {
+      margin-left: 0%;
+    }
+  }
+  
+.slide-right h4{
+
+    animation: 2s slide-right;
+  /* animation-delay: ; */
+}
+@keyframes slide-right{
+    from {
+      margin-left: -500px;
+    }
+  
+    to {
+      margin-left: 0%;
+    }
+  }
+  
